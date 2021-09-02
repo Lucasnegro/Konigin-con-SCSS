@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Scss/estilos.css" />
+    <link rel="stylesheet" href="scss/estilos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@900&display=swap"
       rel="stylesheet"
@@ -13,7 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
     />
-    <title>Konigin</title>
+    <title>Contacto</title>
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <!--Animated CSS-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <!--Font awsome-->
+    <script src="https://kit.fontawesome.com/e56b1eba5a.js" crossorigin="anonymous"></script>
   </head>
   <body class="body">
     <section class="cabezal">
@@ -30,37 +36,67 @@
       </div>
       <div class="divtitulo">
         <a href="index.html">
-          <img src="/Img/konigin_dorado.png" alt="cervecería artesanal" width="400px">
+          <img
+            src="/img/konigin_dorado.png"
+            alt="cervecería artesanal"
+            width="400px"
+          />
         </a>
       </div>
     </section>
-    <div class="section1">
-      <section class="quienessomos">
-        <h1>CERVEZA ARTESANAL PREMIUM</h1>
-        <p>
-          Cerveza artesanal kőnigin está elaborada con la mas alta calidad de
-          maltas por un maestro cervecero desde 2016 destacándose por sabores
-          únicos con todo el cuerpo, alma y espíritu que tiene que tener una
-          birra artesanal.
-        </p>
-      </section>
-    </div>
-    <section class="section2">
-      <div class="cuadro1">
-        <img src="Img/cerveza.png" width="200px" height="200px" alt="" class="logo2">
-      </div>
-      <div class="cuadro2">
-        <a class="links" href="">
-          <h2>Mirá nuestras opciones</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum harum
-            reprehenderit atque alias. Reiciendis ipsam quo adipisci et? Quo
-            nihil quidem quam voluptas sit autem quos iure facilis. Expedita
-            officia illo ratione fuga provident debitis ad, blanditiis animi
-            molestiae, molestias sunt. Incidunt, dolorem? Ducimus illum autem
-            sapiente eaque ex. Laborum?
-          </p>
-        </a>
+    <section class="form">
+      <div class="content">
+        <h1 class="logo__form">
+          Contactanos <span><img src="/img/logo_konigin.png" alt="" height="50px" width="50px" /></span>
+        </h1>
+        <div class="contact-wraper">
+          <div class="contact-form">
+            <h3>Contactanos</h3>
+            <form action="">
+              <p>
+                <label>Nombre completo</label>
+                <input type="text" name="Nombre completo">
+              </p>
+              <p>
+                <label>Email</label>
+                <input type="email" name="Email">
+              </p>
+              <p>
+                <label>Teléfono</label>
+                <input type="tel" name="Teléfono">
+              </p>
+              <p>
+                <label>Asunto</label>
+                <input type="text" name="Asunto">
+              </p>
+              <p class="block">
+                <label>Mensaje</label>
+                <textarea name="Mensaje" rows="5"></textarea>
+              </p>
+              <p class="block">
+                <button type="submit">
+                  Enviar
+                </button>
+              </p>
+            </form>
+
+          </div>
+          <div class="contact-info">
+            <h4>Más info</h4>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i>Murguiondo 576</li>
+              <li><i class="fas fa-phone"></i>1165457214</li>
+              <li><i class="fas fa-envelope-open-text"></i>info@konigin.com</li>
+            </ul>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ea eos animi laudantium eius a! Totam a cumque voluptate ea!
+            </p>
+            <p>
+              konigin.com
+            </p>
+
+          </div>
+        </div>
       </div>
     </section>
     <section class="redes_sociales">
@@ -69,14 +105,28 @@
       <div class="btn--tiktok">Tiktok</div>
     </section>
     <section class="mapa">
-			<div class="mapa">
-				<img src="img/1Cc6.gif" alt="Beber con moderacion" width="150" height="150">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.3116504895552!2d-58.50975734187444!3d-34.63895859511256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9b35558fe27%3A0x93653c45fc00fe9f!2sCorval%C3%A1n%2011%2C%20C1408HQA%20CABA!5e0!3m2!1ses-419!2sar!4v1625903602618!5m2!1ses-419!2sar"
-					width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-				<img src="img/1Cc6.gif" alt="Beber con moderacion" width="150" height="150">
-			</div>
-
+      <div class="mapa">
+        <img
+          src="img/1Cc6.gif"
+          alt="Beber con moderacion"
+          width="150"
+          height="150"
+        />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.3116504895552!2d-58.50975734187444!3d-34.63895859511256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9b35558fe27%3A0x93653c45fc00fe9f!2sCorval%C3%A1n%2011%2C%20C1408HQA%20CABA!5e0!3m2!1ses-419!2sar!4v1625903602618!5m2!1ses-419!2sar"
+          width="150"
+          height="150"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <img
+          src="img/1Cc6.gif"
+          alt="Beber con moderacion"
+          width="150"
+          height="150"
+        />
+      </div>
     </section>
 
     <footer class="footer">

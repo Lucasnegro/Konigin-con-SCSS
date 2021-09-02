@@ -174,6 +174,8 @@
   }
   .logo1 img {
     margin-left: 0px;
+    width: 150px;
+    height: 150px;
   }
   .divmenu__menu {
     width: 100%;
@@ -189,6 +191,9 @@
   .divmenu__menu li {
     border-top: 1px solid #fff;
     width: 100%;
+  }
+  .divtitulo img {
+    width: 250px;
   }
 }
 
@@ -305,7 +310,7 @@
   margin: 2px;
   font-size: 40px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background-image: url(/Img/banner_cerveza3.jpg);
+  background-image: url(/img/banner_cerveza3.jpg);
   background-size: 100%;
 }
 
@@ -320,7 +325,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   color: black;
-  background-image: url(/Img/pizza.jpg);
+  background-image: url(/img/pizza.jpg);
   background-size: 300%;
   height: 400px;
   -ms-grid-column: 1;
@@ -489,37 +494,37 @@
 }
 
 .nueva__frambuesa {
-  background-image: url(/Img/frambuesa.webp);
+  background-image: url(/img/frambuesa.webp);
   background-size: cover;
   background-position: center;
 }
 
 .nueva__roja {
-  background-image: url(/Img/roja.webp);
+  background-image: url(/img/roja.webp);
   background-size: cover;
   background-position: center;
 }
 
 .nueva__irlandesa {
-  background-image: url(/Img/irlandesa.webp);
+  background-image: url(/img/irlandesa.webp);
   background-size: cover;
   background-position: center;
 }
 
 .nueva__uva {
-  background-image: url(/Img/uva.webp);
+  background-image: url(/img/uva.webp);
   background-size: cover;
   background-position: center;
 }
 
 .nueva__negra {
-  background-image: url(/Img/negra.webp);
+  background-image: url(/img/negra.webp);
   background-size: cover;
   background-position: center;
 }
 
 .nueva__alemana {
-  background-image: url(/Img/alemana.webp);
+  background-image: url(/img/alemana.webp);
   background-size: cover;
   background-position: center;
 }
@@ -580,5 +585,122 @@
   text-align: center;
   font-size: 20px;
   color: white;
+}
+
+.content {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 1.5em;
+  padding-bottom: 2em;
+  margin-top: 20px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content .logo__form {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.content .contact-wraper {
+  -webkit-box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+          box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  padding: 2em;
+}
+
+.content .contact-wraper .contact-form {
+  background: #222222;
+}
+
+.content .contact-wraper .contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.content .contact-wraper .contact-info {
+  background: -webkit-gradient(linear, right top, left top, from(#000000), color-stop(#031804), color-stop(#033005), to(#055e0a));
+  background: linear-gradient(to left, #000000, #031804, #033005, #055e0a);
+}
+
+.content .contact-wraper .contact-info h4,
+.content .contact-wraper .contact-info ul,
+.content .contact-wraper .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.content .contact-wraper .contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content .contact-wraper .contact-info ul li {
+  padding: .3em;
+}
+
+.content .contact-wraper > * {
+  padding: 1em;
+}
+
+.contact-form form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #1cf300;
+}
+
+.contact-form form button {
+  background: #1cf300;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  color: #000;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #0a3d04;
+  color: #fff;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  outline: 0;
+}
+
+@media (min-width: 700px) {
+  .contact-wraper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
+  }
+  .contact-wraper > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    padding: 1em;
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
