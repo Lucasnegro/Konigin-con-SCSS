@@ -499,7 +499,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: grey;
+  background-color: #525252;
   color: #fff;
   padding-top: 20px;
 }
@@ -574,7 +574,7 @@
 .copyrights {
   text-align: center;
   width: 100%;
-  background-color: grey;
+  background-color: #525252;
   color: #fff;
   padding-top: 10px;
 }
@@ -774,7 +774,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .mapa img, .mapa iframe {
     width: 100px;
     height: 100px;
@@ -808,8 +808,8 @@
     display: grid;
     margin: 50px;
     margin-top: 0px;
-    -ms-grid-columns: 130px 160px;
-        grid-template-columns: 130px 160px;
+    -ms-grid-columns: 130px auto;
+        grid-template-columns: 130px auto;
     text-align: center;
     margin-left: 20px;
   }

@@ -317,7 +317,7 @@ $degradado: #0c6310;
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
-  background-color: grey;
+  background-color: rgb(82, 82, 82);
   color: #fff;
   padding-top: 20px;
 
@@ -376,7 +376,7 @@ $degradado: #0c6310;
 .copyrights {
   text-align: center;
   width: 100%;
-  background-color: grey;
+  background-color: rgb(82, 82, 82);
   color: #fff;
   padding-top: 10px;
 }
@@ -557,7 +557,7 @@ $degradado: #0c6310;
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .mapa {
     img, iframe {
       width: 100px;
@@ -586,7 +586,7 @@ $degradado: #0c6310;
     display: grid;
     margin: 50px;
     margin-top: 0px;
-    grid-template-columns: 130px 160px;
+    grid-template-columns: 130px auto;
     text-align: center;
     margin-left: 20px;
   
