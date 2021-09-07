@@ -586,7 +586,7 @@ $degradado: #0c6310;
     display: grid;
     margin: 50px;
     margin-top: 0px;
-    grid-template-columns: 130px auto;
+    grid-template-columns: 130px autopx;
     text-align: center;
     margin-left: 20px;
   
@@ -620,18 +620,28 @@ $degradado: #0c6310;
 .nueva {
   justify-content: center;
 }
-#info__konigin {
+.footer {
   .footer__map h3 {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .footer__map li {
+    font-size: 10px;
   }
   .footer__info {
     h3 {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 37px;
   }
   h5 {
+    font-size: 10px;
+  }
+  }
+
+  .footer__newsletter h3 {
     font-size: 15px;
   }
+  .footer__newsletter p {
+    font-size: 10px;
   }
 }
 

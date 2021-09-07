@@ -808,8 +808,8 @@
     display: grid;
     margin: 50px;
     margin-top: 0px;
-    -ms-grid-columns: 130px auto;
-        grid-template-columns: 130px auto;
+    -ms-grid-columns: 130px autopx;
+        grid-template-columns: 130px autopx;
     text-align: center;
     margin-left: 20px;
   }
@@ -847,15 +847,24 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  #info__konigin .footer__map h3 {
-    font-size: 20px;
+  .footer .footer__map h3 {
+    font-size: 15px;
   }
-  #info__konigin .footer__info h3 {
-    font-size: 20px;
+  .footer .footer__map li {
+    font-size: 10px;
+  }
+  .footer .footer__info h3 {
+    font-size: 15px;
     margin-bottom: 37px;
   }
-  #info__konigin .footer__info h5 {
+  .footer .footer__info h5 {
+    font-size: 10px;
+  }
+  .footer .footer__newsletter h3 {
     font-size: 15px;
+  }
+  .footer .footer__newsletter p {
+    font-size: 10px;
   }
   .aprende {
     display: -webkit-box;
