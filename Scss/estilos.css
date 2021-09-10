@@ -148,11 +148,13 @@
 .section2 .opciones h2 {
   text-align: center;
   font-size: 50px;
+  color: #faf60f;
 }
 
 .section2 .opciones p {
   text-align: justify;
   font-size: 20px;
+  color: #faf60f;
 }
 
 .section2 .opciones .opciones__link {
@@ -224,7 +226,7 @@
 
 .carousel-item {
   font-size: 25px;
-  color: white;
+  color: #faf60f;
 }
 
 .combos__titulo {
@@ -232,7 +234,7 @@
   margin-top: 50px;
   margin-bottom: 10px;
   font-size: 20px;
-  color: #ffba08;
+  color: #faf60f;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -344,7 +346,7 @@
 .aprende h2 {
   font-size: 25px;
   margin-top: 30px;
-  color: #c0b300;
+  color: #faf60f;
 }
 
 .aprende div {
@@ -499,8 +501,8 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #525252;
-  color: #fff;
+  background-color: #000;
+  color: #faf60f;
   padding-top: 20px;
 }
 
@@ -535,14 +537,14 @@
 }
 
 .footer .footer__map ul li a {
-  color: #fff;
+  color: #faf60f;
   display: block;
   padding: 5px 0px;
   text-decoration: none;
 }
 
 .footer .footer__map ul a:hover {
-  color: #000;
+  color: #fff;
 }
 
 .footer .footer__info {
@@ -574,8 +576,8 @@
 .copyrights {
   text-align: center;
   width: 100%;
-  background-color: #525252;
-  color: #fff;
+  background-color: #000;
+  color: #faf60f;
   padding-top: 10px;
 }
 

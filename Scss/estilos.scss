@@ -114,10 +114,12 @@ $fontsize: 100px;
     h2 {
       text-align: center;
       font-size: 50px;
+      color: #faf60f;
     }
     p {
       text-align: justify;
       font-size: 20px;
+      color: #faf60f;
     }
     .opciones__link {
       text-decoration: none;
@@ -157,7 +159,7 @@ $fontsize: 100px;
 
 .carousel-item {
   font-size: $fontsize - (75);
-  color: white;
+  color: #faf60f;
 }
 
 .combos__titulo {
@@ -165,7 +167,7 @@ $fontsize: 100px;
   margin-top: 50px;
   margin-bottom: 10px;
   font-size: 20px;
-  color: #ffba08;
+  color: #faf60f;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -233,7 +235,7 @@ $fontsize: 100px;
   h2 {
     font-size: 25px;
     margin-top: 30px;
-    color: rgb(192, 179, 0);
+    color: #faf60f;
   }
   div {
     display: flex;
@@ -317,8 +319,8 @@ $degradado: #0c6310;
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(82, 82, 82);
-  color: #fff;
+  background-color: #000;
+  color: #faf60f;
   padding-top: 20px;
 
   .footer__map {
@@ -341,14 +343,14 @@ $degradado: #0c6310;
         display: inline-block;
   
         a {
-          color: #fff;
+          color: #faf60f;
           display: block;
           padding: 5px 0px;
           text-decoration: none;          
         }
       }
       a:hover {
-        color: #000;
+        color: #fff;
       }
     }
   }
@@ -376,8 +378,8 @@ $degradado: #0c6310;
 .copyrights {
   text-align: center;
   width: 100%;
-  background-color: rgb(82, 82, 82);
-  color: #fff;
+  background-color: #000;
+  color: #faf60f;
   padding-top: 10px;
 }
 
