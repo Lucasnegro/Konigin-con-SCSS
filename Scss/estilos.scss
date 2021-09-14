@@ -681,5 +681,18 @@ $degradado: #0c6310;
 
 }
 
+.btn-wsp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;  
+  img {
+    width: 55px;
+  }
+}
+#btn-wsp:hover {
+  opacity: 0%;
+  transition: 0.5s;
+}
 
 

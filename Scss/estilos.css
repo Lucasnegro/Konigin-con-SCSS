@@ -915,4 +915,21 @@
     padding-bottom: 40px;
   }
 }
+
+.btn-wsp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+}
+
+.btn-wsp img {
+  width: 55px;
+}
+
+#btn-wsp:hover {
+  opacity: 0%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 /*# sourceMappingURL=estilos.css.map */
